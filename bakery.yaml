@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [Copse-Regular.ttf.ttx, src/Copse-Regular-VTT.ttf.ttx, src/Copse-Regular-TTF.ttf.ttx,
+  src/Copse-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
